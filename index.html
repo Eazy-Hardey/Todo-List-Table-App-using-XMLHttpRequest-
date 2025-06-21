@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> MY Todo List Table</title>
+
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: rgb(228, 238, 238);
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #6b5555;
+    }
+
+    tr:nth-child(even) {
+      background-color: hsl(147, 21%, 50%);
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;"> My Todo List (Fetched with XMLHttpRequest)</h1>
+
+  <!-- Table will be injected here -->
+
+  <script src="script.js"></script>
+</body>
+</html>
